@@ -1,10 +1,10 @@
 <template>
-  <div>user</div>
+  <div class='container'>User</div>
 </template>
 
 <script>
 export default {
-  name: ''
+  name: 'user-index'
 }
 </script>
 

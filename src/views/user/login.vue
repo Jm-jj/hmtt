@@ -1,10 +1,12 @@
 <template>
-  <div>login</div>
+  <div class="page-user-chat">
+    <van-nav-bar title="登录"></van-nav-bar>
+  </div>
 </template>
 
 <script>
 export default {
-  name: ''
+  name: 'user-chat'
 }
 </script>
 

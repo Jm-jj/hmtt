@@ -1,11 +1,22 @@
 <template>
-  <div>question</div>
+  <div class='container'>
+    <!-- van-skeleton 骨架屏组件
+    title 第一行标题骨架
+    :row='3' 后面还有三行骨架 -->
+    <van-skeleton title :row="3" />
+    <van-skeleton title :row="3" />
+    <van-skeleton title :row="3" />
+  </div>
 </template>
 
 <script>
 export default {
-  name: ''
+  name: 'question-index'
 }
 </script>
 
-<style scoped lang='less'></style>
+<style scoped lang='less'>
+.van-skeleton{
+  margin-top: 10px;
+}
+</style>
